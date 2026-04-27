@@ -1,0 +1,32 @@
+# ============================
+# Wikipedia RAG QA System
+# ============================
+
+# PyTorch (CUDA 버전에 맞게 별도 설치 권장)
+# pip install torch --index-url https://download.pytorch.org/whl/cu118  # CUDA 11.8
+# pip install torch --index-url https://download.pytorch.org/whl/cu121  # CUDA 12.1
+torch>=2.0.0
+
+# Hugging Face - 모델 및 토크나이저
+transformers>=4.40.0
+sentence-transformers>=2.7.0
+huggingface-hub>=0.23.0
+accelerate>=0.29.0
+
+# FAISS - 벡터 유사도 검색
+# GPU 사용 시: pip install faiss-gpu
+faiss-cpu>=1.8.0
+
+# HDF5 - 대용량 임베딩 파일 저장
+h5py>=3.9.0
+
+# 데이터 처리
+numpy>=1.24.0
+pandas>=2.0.0
+
+# 진행률 표시
+tqdm>=4.65.0
+
+# Jupyter 노트북
+jupyter>=1.0.0
+ipykernel>=6.0.0
