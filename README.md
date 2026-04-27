@@ -4,7 +4,7 @@ Wikipedia 문서를 기반으로 FAISS 벡터 인덱스를 구축하고, Gemma-2
 
 ---
 
-## 📁 파일 구조
+## 파일 구조
 
 ```
 .
@@ -19,7 +19,7 @@ Wikipedia 문서를 기반으로 FAISS 벡터 인덱스를 구축하고, Gemma-2
 
 ---
 
-## ⚙️ 전체 파이프라인
+## 전체 파이프라인
 
 ```
 Wikipedia 문서 (노이즈 / 클린)
@@ -42,7 +42,7 @@ Wikipedia 문서 (노이즈 / 클린)
 
 ---
 
-## 🗂️ 데이터 경로 (기본값)
+## 데이터 경로 (기본값)
 
 코드 내 경로는 아래와 같이 설정되어 있습니다. 환경에 맞게 수정이 필요합니다.
 
@@ -72,7 +72,7 @@ Wikipedia 문서 (노이즈 / 클린)
 
 ---
 
-## 💿 설치 방법
+## 설치 방법
 
 ```bash
 pip install -r requirements.txt
@@ -88,7 +88,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 실행 방법
+## 실행 방법
 
 ### 1단계: 임베딩 생성
 
@@ -217,7 +217,7 @@ jupyter notebook check_submission.ipynb
 
 ---
 
-## ⚠️ 주의사항
+##  주의사항
 
 - **임베딩 모델 일치**: `noise_embedding.py`, `clean_embedding.py`, `rag_v3.py` 모두 동일한 임베딩 모델(`all-MiniLM-L6-v2`)을 사용해야 합니다.
 - **파일 경로 수정**: 코드 내 하드코딩된 `/data/shared/nlp/` 경로를 실제 환경에 맞게 수정하세요.
