@@ -1,4 +1,4 @@
-# 🔍 Wikipedia RAG QA System
+# Wikipedia RAG QA System
 
 Wikipedia 문서를 기반으로 FAISS 벡터 인덱스를 구축하고, Gemma-2b-it 모델을 이용해 질의응답을 수행하는 RAG(Retrieval-Augmented Generation) 파이프라인입니다.
 
